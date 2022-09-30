@@ -1,7 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import "./App.css"
+import Questions from './container/Center/Questions';
 import Left from './container/Left/Left';
-import Center from './container/Center/Center';
+
 import Right from './container/Right/Right';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
      <Left/>
      <div className='center'>
       <Routes>
-        <Route path="/" element={<Center/>}/>
+        <Route path="/" element={<Questions/>}/>
       </Routes>
      </div>
      <Right/>

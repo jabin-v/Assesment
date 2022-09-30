@@ -1,0 +1,20 @@
+.question_searchForm{
+    padding:2px;
+    color:gray;
+
+}
+.search_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Question_search{
+    display:flex;
+    background:transparent;
+    border:none;
+    outline:none;
+    padding:10px;
+    color:white;
+
+}

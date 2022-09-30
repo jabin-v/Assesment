@@ -3,16 +3,17 @@
     margin:5px;
     padding:20px 5px;
     border-bottom: 0.5px solid rgb(230, 227, 227);
+    
    
     
 }
 .job_compay{
     color:gray;
-    font-size:20px;
+    font-size:15px;
 }
 .job_name{
     color:#3491E0;
-    font-size:20px;
+    font-size:15px;
 }
 .job_card-location{
 
