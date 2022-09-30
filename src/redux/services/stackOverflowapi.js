@@ -6,7 +6,8 @@ export const stackOverflowapi=createApi({
 
     }),
     endpoints:(builder)=>({
-        getQuestions:builder.query({query:(sort)=>`/questions?order=desc&sort=${sort}&site=stackoverflow`})
+        getQuestions:builder.query({query:(sort)=>`/questions?order=desc&sort=${sort}&site=stackoverflow`}),
+        getQuestionsBySeacrh:builder.query({query:(searchTerm)=>`/search/advanced?order=desc&sort=activity&title=${searchTerm}&site=stackoverflow`}),
 
         
     })
@@ -14,6 +15,7 @@ export const stackOverflowapi=createApi({
 })
 
 export const {
-useGetQuestionsQuery
+useGetQuestionsQuery,
+useGetQuestionsBySeacrhQuery
    
   } = stackOverflowapi;

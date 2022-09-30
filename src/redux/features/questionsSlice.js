@@ -9,8 +9,6 @@ const initialState ={
     initialState,
     reducers:{
       selectSort:(state,action)=>{
-
-        console.log(action.payload)
         state.sort = action.payload;
       }
 

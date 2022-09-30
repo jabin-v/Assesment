@@ -4,6 +4,7 @@ import Questions from './container/Center/Questions';
 import Left from './container/Left/Left';
 
 import Right from './container/Right/Right';
+import Search from './container/search/Search';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <div className='center'>
       <Routes>
         <Route path="/" element={<Questions/>}/>
+        <Route path="/search/:searchTerm" element={<Search/>}/>
       </Routes>
      </div>
      <Right/>
