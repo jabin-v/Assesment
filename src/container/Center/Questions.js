@@ -12,7 +12,8 @@ const Questions = () => {
 
   const {data,isFetching,error}=useGetQuestionsQuery(sort || "activity");
 
-  console.log(data)
+
+
 
   return (
     <div className="questions_container">

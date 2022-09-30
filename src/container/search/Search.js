@@ -6,8 +6,6 @@ import"./search.css"
 const Search = () => {
     const { searchTerm } = useParams();
     const { data, isFetching, error } = useGetQuestionsBySeacrhQuery(searchTerm);
-
-    console.log(data)
   return (
     <>
     {isFetching ? "Please wait data is loading":

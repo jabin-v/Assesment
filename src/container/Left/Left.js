@@ -23,9 +23,9 @@ const Left = () => {
   return (
     <div className="left">
         <div className="sidebar">
-            <div className="logo">
+            <Link to="/" className="logo">
                 <img src="https://miro.medium.com/max/1200/0*UEtwA2ask7vQYW06.png"/>
-            </div>
+            </Link>
             <div className="options">
                 <ul className="options-list">
                 <Link to="/" style={{ textDecoration: "none" }}>

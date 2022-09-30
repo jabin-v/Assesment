@@ -7,14 +7,6 @@ import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import ModeEditOutlineOutlinedIcon from '@mui/icons-material/ModeEditOutlineOutlined';
 const QuestionsCard = ({question}) => {
 
-    const d=question?.last_edit_date;
-
-    var date = new Date(d);
-    date.toString("MMM dd");
-
-  
-
-
   return (
     <div className="questions_card">
         <div className="questions_card-right">
