@@ -1,0 +1,10 @@
+.home{
+    display:flex;
+    max-width:1560px;
+    margin:0 auto;
+    
+}
+.center{
+    flex:6;
+    background:red;
+}

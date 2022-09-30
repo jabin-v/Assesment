@@ -1,0 +1,35 @@
+.left{
+    flex:2;
+    /* background:yellow; */
+}
+.logo{
+   
+
+}
+.logo img{
+    object-fit:cover;
+    width:200px;
+}
+.options-list{
+    list-style: none;
+    margin: 0;
+     padding: 0;
+     
+}
+.options-list li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    gap:10px;
+    color:#a6a49f
+
+}
+.options-list li:hover{
+    background-color: #ece8ff;
+}
+.icon{
+    font-size: 10px;
+    color: #a6a49f
+
+}
